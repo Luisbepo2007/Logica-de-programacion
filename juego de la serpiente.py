@@ -91,7 +91,7 @@ pantalla.onkeypress(toggle_pause, "p")
 def restart_game():
     global puntaje, delay
 
-    time.sleep(0.5)
+    time.sleep(1)
     cabeza.goto(0,0)
     cabeza.direction = "stop"
 
@@ -211,4 +211,5 @@ while True:
             
     time.sleep(delay)
     
+
 pantalla.mainloop()
